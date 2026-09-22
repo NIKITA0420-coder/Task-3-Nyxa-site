@@ -2,6 +2,8 @@
 
 A single-page storefront for Nyxa, a small-batch night lamp shop. Every lamp card runs its own live light behavior in the browser — tap a lamp and watch it breathe, flicker, drift, ripple, or twinkle in real time.
 
+**Live demo:** [task-3-nyxa-site.onrender.com](https://task-3-nyxa-site.onrender.com)
+
 ## Features
 
 - Responsive product grid (Bootstrap 5) showcasing 8 lamps, each with a distinct animated glow effect
@@ -53,13 +55,14 @@ npx serve .
 
 ## Deployment
 
-This is a static site and can be deployed on any static hosting provider (Render, Netlify, GitHub Pages, Vercel, etc.).
+Deployed as a static site on [Render](https://render.com):
 
-**Render:**
 1. Push this repo to GitHub
 2. Create a new Static Site on Render, connect the repo
 3. Build command: leave blank
 4. Publish directory: `.`
+
+Live at: **https://task-3-nyxa-site.onrender.com**
 
 ## Tech
 
